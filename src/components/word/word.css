@@ -1,0 +1,23 @@
+h2 {
+    font-family: cursive;
+    text-align: center;
+    margin: 35px;
+}
+button {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+button.correct-answer {
+    background-color: #2ECC71;
+    border: 1px solid #2ecc71;
+}
+
+button.wrong-answer {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+}
