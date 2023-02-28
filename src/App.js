@@ -7,7 +7,7 @@ import Word from "./components/word/word.component";
 
 const App = () => {
   return (
-    <HashRouter>
+    <HashRouter base="/">
       <Routes>
         <Route path="/" element={<Launch />} />
         <Route path="/word" element={<Word />} />
